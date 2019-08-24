@@ -46,7 +46,7 @@ After running the script you should see something like this,
 
 ![CLI console logs](./public/img/npm_run_sockets-test.PNG)
 
-Shortly afterwards you should the front end components rendered in your default browser of choice,
+Shortly afterwards the front end components should render in your default browser of choice,
 
 ![browser screenshot](./public/img/front-end-example.PNG)
 
