@@ -73,6 +73,5 @@ Good luck!
 ### Technology
 
  - Node.JS
- - Express
  - React
  - Socket.IO
