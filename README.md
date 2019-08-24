@@ -34,15 +34,15 @@ npm install
 
 ### Running the Application
 
-After installing your dependecies, run the following script
+After installing your dependecies, run the following command,
 
 ```
 npm run sockets-test
 ```
 
-This script runs the server script and the React script [concurrently](https://www.npmjs.com/package/concurrently) (see what I did there? ;p ).
+This command runs the server script and the React script [concurrently](https://www.npmjs.com/package/concurrently) (see what I did there? ;p ).
 
-After running the script you should see something like this,
+After entering the command you should see something like this,
 
 ![CLI console logs](./public/img/npm_run_sockets-test.PNG)
 
