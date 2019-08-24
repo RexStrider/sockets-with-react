@@ -56,7 +56,7 @@ And that's it!
 
 Ther server side script does two things.
 
-It sends the timestamp every second to the front-end, and it listens for any chat messages coming in from the front-end of our application.
+It sends the timestamp every second to the front-end, and it handles any chat messages coming in from the front-end of our application.
 
 When the server recieves a message it sends the message to all users connected to the application.
 
