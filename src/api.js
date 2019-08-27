@@ -1,9 +1,5 @@
 import openSocket from 'socket.io-client';
-export const socket = openSocket(
-    process.env.NODE_ENV === "production" ?
-    'https://sockets-with-react.herokuapp.com' :
-    'http://localhost:8000'
-    );
+export const socket = openSocket(process.env.SOCKET_CONNECT_URL);
 
 function subscribeToTimer(cb) {
     socket.on('timer', timestamp => cb(null, timestamp));
