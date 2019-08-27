@@ -8,7 +8,7 @@ module.exports = server => {
         temp = require('socket.io').listen(server)
     } else {
         const app = require('express')();
-        const server = require('http').createServer(app);
+        server = require('http').createServer(app);
         temp = require('socket.io')(server);
     }
 
@@ -42,5 +42,4 @@ module.exports = server => {
             console.log('listening on port 8000');
         });
     }
-
 }

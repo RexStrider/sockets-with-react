@@ -4,7 +4,7 @@ if (process.env.NODE_ENV === "production") {
 
     const app = express();
 
-    const PORT = process.env.PORT || 3001;
+    const PORT = process.env.PORT || 3000;
 
     app.use(express.urlencoded({ extended: true }));
     app.use(express.json());
@@ -24,5 +24,5 @@ if (process.env.NODE_ENV === "production") {
     require("./connection/sockets")(server);
 }
 else {
-  require("./connection/sockets");
+  require("./connection/sockets")(null);
 }

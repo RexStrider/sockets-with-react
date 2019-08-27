@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sockets-test": "concurrently \"node server.js\" \"npm start\""
+    "sockets-test": "concurrently \"nodemon server.js\" \"npm start\""
   },
   "eslintConfig": {
     "extends": "react-app"
